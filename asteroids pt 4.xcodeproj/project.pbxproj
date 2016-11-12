@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69BA2C161CA9F2170085686E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C151CA9F2170085686E /* main.cpp */; };
+		69552D2B1D0D64BD0023FC38 /* ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69552D291D0D64BD0023FC38 /* ground.cpp */; };
+		69BA2C3B1CA9F2700085686E /* alienBullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C1C1CA9F2700085686E /* alienBullet.cpp */; };
+		69BA2C3C1CA9F2700085686E /* alienShips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C1E1CA9F2700085686E /* alienShips.cpp */; };
+		69BA2C3D1CA9F2700085686E /* bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C201CA9F2700085686E /* bullet.cpp */; };
+		69BA2C3E1CA9F2700085686E /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C221CA9F2700085686E /* driver.cpp */; };
+		69BA2C3F1CA9F2700085686E /* flyingObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C231CA9F2700085686E /* flyingObject.cpp */; };
+		69BA2C401CA9F2700085686E /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C251CA9F2700085686E /* game.cpp */; };
+		69BA2C411CA9F2700085686E /* menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C271CA9F2700085686E /* menu.cpp */; };
+		69BA2C421CA9F2700085686E /* pills.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C291CA9F2700085686E /* pills.cpp */; };
+		69BA2C431CA9F2700085686E /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C2B1CA9F2700085686E /* point.cpp */; };
+		69BA2C441CA9F2700085686E /* rocks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C2D1CA9F2700085686E /* rocks.cpp */; };
+		69BA2C451CA9F2700085686E /* ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C2F1CA9F2700085686E /* ship.cpp */; };
+		69BA2C461CA9F2700085686E /* shipDebris.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C311CA9F2700085686E /* shipDebris.cpp */; };
+		69BA2C471CA9F2700085686E /* star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C331CA9F2700085686E /* star.cpp */; };
+		69BA2C481CA9F2700085686E /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C351CA9F2700085686E /* uiDraw.cpp */; };
+		69BA2C491CA9F2700085686E /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C371CA9F2700085686E /* uiInteract.cpp */; };
+		69BA2C4A1CA9F2700085686E /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69BA2C391CA9F2700085686E /* velocity.cpp */; };
+		69BA2C4C1CA9F2850085686E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BA2C4B1CA9F2850085686E /* OpenGL.framework */; };
+		69BA2C4E1CA9F28D0085686E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BA2C4D1CA9F28D0085686E /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +41,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		69552D291D0D64BD0023FC38 /* ground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ground.cpp; sourceTree = SOURCE_ROOT; };
+		69552D2A1D0D64BD0023FC38 /* ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ground.h; sourceTree = SOURCE_ROOT; };
 		69BA2C121CA9F2170085686E /* asteroids pt 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "asteroids pt 4"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69BA2C151CA9F2170085686E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		69BA2C1C1CA9F2700085686E /* alienBullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alienBullet.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C1D1CA9F2700085686E /* alienBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alienBullet.h; sourceTree = SOURCE_ROOT; };
+		69BA2C1E1CA9F2700085686E /* alienShips.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alienShips.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C1F1CA9F2700085686E /* alienShips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alienShips.h; sourceTree = SOURCE_ROOT; };
+		69BA2C201CA9F2700085686E /* bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bullet.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C211CA9F2700085686E /* bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bullet.h; sourceTree = SOURCE_ROOT; };
+		69BA2C221CA9F2700085686E /* driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = driver.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C231CA9F2700085686E /* flyingObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flyingObject.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C241CA9F2700085686E /* flyingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyingObject.h; sourceTree = SOURCE_ROOT; };
+		69BA2C251CA9F2700085686E /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C261CA9F2700085686E /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = SOURCE_ROOT; };
+		69BA2C271CA9F2700085686E /* menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = menu.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C281CA9F2700085686E /* menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menu.h; sourceTree = SOURCE_ROOT; };
+		69BA2C291CA9F2700085686E /* pills.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pills.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C2A1CA9F2700085686E /* pills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pills.h; sourceTree = SOURCE_ROOT; };
+		69BA2C2B1CA9F2700085686E /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C2C1CA9F2700085686E /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = SOURCE_ROOT; };
+		69BA2C2D1CA9F2700085686E /* rocks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rocks.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C2E1CA9F2700085686E /* rocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rocks.h; sourceTree = SOURCE_ROOT; };
+		69BA2C2F1CA9F2700085686E /* ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ship.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C301CA9F2700085686E /* ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ship.h; sourceTree = SOURCE_ROOT; };
+		69BA2C311CA9F2700085686E /* shipDebris.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shipDebris.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C321CA9F2700085686E /* shipDebris.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shipDebris.h; sourceTree = SOURCE_ROOT; };
+		69BA2C331CA9F2700085686E /* star.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = star.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C341CA9F2700085686E /* star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = star.h; sourceTree = SOURCE_ROOT; };
+		69BA2C351CA9F2700085686E /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiDraw.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C361CA9F2700085686E /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiDraw.h; sourceTree = SOURCE_ROOT; };
+		69BA2C371CA9F2700085686E /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiInteract.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C381CA9F2700085686E /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiInteract.h; sourceTree = SOURCE_ROOT; };
+		69BA2C391CA9F2700085686E /* velocity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = velocity.cpp; sourceTree = SOURCE_ROOT; };
+		69BA2C3A1CA9F2700085686E /* velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity.h; sourceTree = SOURCE_ROOT; };
+		69BA2C4B1CA9F2850085686E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		69BA2C4D1CA9F28D0085686E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69BA2C4E1CA9F28D0085686E /* GLUT.framework in Frameworks */,
+				69BA2C4C1CA9F2850085686E /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +95,8 @@
 		69BA2C091CA9F2170085686E = {
 			isa = PBXGroup;
 			children = (
+				69BA2C4D1CA9F28D0085686E /* GLUT.framework */,
+				69BA2C4B1CA9F2850085686E /* OpenGL.framework */,
 				69BA2C141CA9F2170085686E /* asteroids pt 4 */,
 				69BA2C131CA9F2170085686E /* Products */,
 			);
@@ -57,7 +113,39 @@
 		69BA2C141CA9F2170085686E /* asteroids pt 4 */ = {
 			isa = PBXGroup;
 			children = (
-				69BA2C151CA9F2170085686E /* main.cpp */,
+				69BA2C1C1CA9F2700085686E /* alienBullet.cpp */,
+				69BA2C1D1CA9F2700085686E /* alienBullet.h */,
+				69BA2C1E1CA9F2700085686E /* alienShips.cpp */,
+				69BA2C1F1CA9F2700085686E /* alienShips.h */,
+				69BA2C201CA9F2700085686E /* bullet.cpp */,
+				69BA2C211CA9F2700085686E /* bullet.h */,
+				69BA2C221CA9F2700085686E /* driver.cpp */,
+				69BA2C231CA9F2700085686E /* flyingObject.cpp */,
+				69BA2C241CA9F2700085686E /* flyingObject.h */,
+				69552D291D0D64BD0023FC38 /* ground.cpp */,
+				69552D2A1D0D64BD0023FC38 /* ground.h */,
+				69BA2C251CA9F2700085686E /* game.cpp */,
+				69BA2C261CA9F2700085686E /* game.h */,
+				69BA2C271CA9F2700085686E /* menu.cpp */,
+				69BA2C281CA9F2700085686E /* menu.h */,
+				69BA2C291CA9F2700085686E /* pills.cpp */,
+				69BA2C2A1CA9F2700085686E /* pills.h */,
+				69BA2C2B1CA9F2700085686E /* point.cpp */,
+				69BA2C2C1CA9F2700085686E /* point.h */,
+				69BA2C2D1CA9F2700085686E /* rocks.cpp */,
+				69BA2C2E1CA9F2700085686E /* rocks.h */,
+				69BA2C2F1CA9F2700085686E /* ship.cpp */,
+				69BA2C301CA9F2700085686E /* ship.h */,
+				69BA2C311CA9F2700085686E /* shipDebris.cpp */,
+				69BA2C321CA9F2700085686E /* shipDebris.h */,
+				69BA2C331CA9F2700085686E /* star.cpp */,
+				69BA2C341CA9F2700085686E /* star.h */,
+				69BA2C351CA9F2700085686E /* uiDraw.cpp */,
+				69BA2C361CA9F2700085686E /* uiDraw.h */,
+				69BA2C371CA9F2700085686E /* uiInteract.cpp */,
+				69BA2C381CA9F2700085686E /* uiInteract.h */,
+				69BA2C391CA9F2700085686E /* velocity.cpp */,
+				69BA2C3A1CA9F2700085686E /* velocity.h */,
 			);
 			path = "asteroids pt 4";
 			sourceTree = "<group>";
@@ -118,7 +206,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69BA2C161CA9F2170085686E /* main.cpp in Sources */,
+				69BA2C471CA9F2700085686E /* star.cpp in Sources */,
+				69BA2C441CA9F2700085686E /* rocks.cpp in Sources */,
+				69BA2C411CA9F2700085686E /* menu.cpp in Sources */,
+				69BA2C3B1CA9F2700085686E /* alienBullet.cpp in Sources */,
+				69BA2C451CA9F2700085686E /* ship.cpp in Sources */,
+				69BA2C491CA9F2700085686E /* uiInteract.cpp in Sources */,
+				69BA2C3D1CA9F2700085686E /* bullet.cpp in Sources */,
+				69BA2C3F1CA9F2700085686E /* flyingObject.cpp in Sources */,
+				69BA2C3C1CA9F2700085686E /* alienShips.cpp in Sources */,
+				69BA2C431CA9F2700085686E /* point.cpp in Sources */,
+				69BA2C481CA9F2700085686E /* uiDraw.cpp in Sources */,
+				69BA2C461CA9F2700085686E /* shipDebris.cpp in Sources */,
+				69BA2C4A1CA9F2700085686E /* velocity.cpp in Sources */,
+				69BA2C3E1CA9F2700085686E /* driver.cpp in Sources */,
+				69552D2B1D0D64BD0023FC38 /* ground.cpp in Sources */,
+				69BA2C421CA9F2700085686E /* pills.cpp in Sources */,
+				69BA2C401CA9F2700085686E /* game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +343,7 @@
 				69BA2C1B1CA9F2170085686E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
